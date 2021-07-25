@@ -1,0 +1,109 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+h2.name {font-size: 20px;width: 100%;text-align: center;position: static;top: 0;padding: 30px 0;vertical-align: 60px;} 
+.logo {margin: 20px;display: block;}
+.close {position: absolute;top: 25px;left: 20px;} 
+.thumb {border-radius: 100px;float: left;margin: 20px;}
+h2 {float: left;font-size: 16px; color: #333;font-weight: bold;top: 28px;position: relative;}
+.likes-views {float: right;color: #888;font-size: 12px;position: relative;top: 20px;right: 20px;}
+.photodetail {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 999999999999;
+    overflow-x: hidden;
+    overflow-y: auto;
+    left: -100%;
+    opacity: 0;
+    top: 0;
+    animation-name: example-back;
+    animation-duration: 0.3s;
+    .thumb {display: none;}
+    h2 {font-size: 20px;width: calc(100% - 100px);text-align: center;position: static;top: 0;padding: 30px 0;vertical-align: 60px;margin-left: 50px;} 
+    p {padding-bottom: 60px;} 
+    &.showed {opacity: 1;left: 0;animation-name: example;animation-duration: 0.3s;}
+}
+.image {
+    width: 100%;
+    img {
+    width: 102%;
+    border-radius: 0;
+    }
+}
+.actions {
+    margin: 0;
+    padding: 0;
+    li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding: 20px;
+    }
+}
+.altdescription{
+    width: calc(100% - 34px);
+    float: left;
+    padding: 0 20px;
+    line-height: 30px; 
+}
+.dashboard {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999999;
+    width: 105%;
+    left: -10px;
+}  
+.profile {
+    .image {
+            width: 50%;
+            height: 200px;
+            float: left;
+            overflow: hidden;
+        img {
+            height: 160%;
+            width: auto;
+        }
+    }
+}
+.infoarea {
+    img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 20px;
+    float: left;
+    }
+    span {
+        width: calc(100% - 160px);
+        display: block;
+        float: left;
+        padding: 20px;
+        color: #666;
+    }
+    button {
+        padding: 6px 20px;
+        margin: 0 20px;
+        border-radius: 20px;
+        background: #0c2266;
+        color: #fff;
+        border: 0;
+    }
+}
+.statisticsarea {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+    ul{
+        li {width: 33%;float: left;list-style-type: none;text-align: center;
+            span {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 40px;
+            }
+        }
+    }
+}

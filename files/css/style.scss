@@ -1,0 +1,14 @@
+/* Colors */
+$chebancayellow: #FFD100;
+
+$bpTablet:  'min-width: 768px' ; // col col-sm
+$bpTabletLandscape:  'min-width: 992px' ; // col col-md
+$bpDesktop:  'min-width: 1200px' ; // col col-lg
+
+@import './reset';  
+@import './elements';     
+@import './peopleswiper';  
+@import './formelements';  
+@import './animations';   
+@import './breakpoints';    
+ 

@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+    .dashboard {display: none;}
+    .list{
+        .all {
+            flex-grow: 4;
+            width: 21%;
+            float: left;
+            margin: 2%;
+            height: 800px;
+        }
+    }
+    .profile{
+        .image {
+            width: 25%;
+            float: left;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
